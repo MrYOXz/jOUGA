@@ -69,9 +69,9 @@ async function generalSettings() {
 		sectionHeader("General Settings");
 
 		const fields = [
-			["Bot Name", readSetting("botname") || "jOUGA Bot"],
+			["Bot Name", readSetting("botname") || "hitori Bot"],
 			["Bot Number", readSetting("number_bot") || theme.muted("Not set (Prompt on start)")],
-			["Author", readSetting("author") || "jOUGA"],
+			["Author", readSetting("author") || "nazedev"],
 			["Pack Name", readSetting("packname") || "Bot WhatsApp"],
 			["Timezone", readSetting("timezone") || "Asia/Jakarta"],
 			["Locale", readSetting("locale") || "en"],
