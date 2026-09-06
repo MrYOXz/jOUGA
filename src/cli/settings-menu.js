@@ -69,9 +69,9 @@ async function generalSettings() {
 		sectionHeader("General Settings");
 
 		const fields = [
-			["Bot Name", readSetting("botname") || "Hitori Bot"],
+			["Bot Name", readSetting("botname") || "jOUGA Bot"],
 			["Bot Number", readSetting("number_bot") || theme.muted("Not set (Prompt on start)")],
-			["Author", readSetting("author") || "Nazedev"],
+			["Author", readSetting("author") || "jOUGA"],
 			["Pack Name", readSetting("packname") || "Bot WhatsApp"],
 			["Timezone", readSetting("timezone") || "Asia/Jakarta"],
 			["Locale", readSetting("locale") || "en"],
@@ -182,7 +182,7 @@ async function ownerSettings() {
 
 		if (choice === "add") {
 			const num = await input({
-				message: "Enter phone number (e.g. 628123456789):",
+				message: "Enter phone number (e.g. 62895415596149):",
 				validate: (val) => {
 					const cleanNum = val.trim().replace(/^\+/, "");
 					if (!/^\d+$/.test(cleanNum)) return "Invalid format. Use digits only.";
