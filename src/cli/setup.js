@@ -137,10 +137,10 @@ export async function runSetupWizard() {
 
 	logSuccess("Configuration saved to settings.js");
 
-	const markerPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", ".jOUGA_setup_done");
+	const markerPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", ".youga_setup_done");
 	fs.writeFileSync(markerPath, "1", "utf-8");
 
-	console.log(`  ${theme.dim("Tip: Use")} ${theme.accent("'hitori start'")} ${theme.dim("command to start the bot anytime.")}\n`);
+	console.log(`  ${theme.dim("Tip: Use")} ${theme.accent("'youga gas'")} ${theme.dim("command to start the bot anytime.")}\n`);
 
 	return true;
 }
