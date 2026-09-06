@@ -123,7 +123,7 @@ export async function runSetupWizard() {
 	});
 
 	if (!confirmed) {
-		logWarning("Setup cancelled. You can run it again with: hitori --setup");
+		logWarning("Setup cancelled. You can run it again with: youga --setup");
 		return false;
 	}
 
