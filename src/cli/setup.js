@@ -13,7 +13,7 @@ export async function runSetupWizard() {
 	showBanner();
 	sectionHeader("First-Time Setup");
 
-	console.log(`  ${theme.dim("Welcome! Let's configure the essentials.")}\n` + `  ${theme.dim("You can change any of these later with")} ${theme.accent("hitori settings")}\n`);
+	console.log(`  ${theme.dim("Welcome! Let's configure the essentials.")}\n` + `  ${theme.dim("You can change any of these later with")} ${theme.accent("jOUGA settings")}\n`);
 
 	separator();
 
@@ -35,7 +35,7 @@ export async function runSetupWizard() {
 
 				const pn = parsePhoneNumber("+" + cleanNum);
 				if (!pn.valid) {
-					return `Invalid phone number: "${n}". Please enter a valid international number with country code (e.g. 628...).`;
+					return `Invalid phone number: "${n}". Please enter a valid international number with country code (e.g. 62895415596149).`;
 				}
 			}
 			return true;
