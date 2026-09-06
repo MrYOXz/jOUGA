@@ -49,7 +49,7 @@ export async function runSetupWizard() {
 
 	const authorName = await input({
 		message: "Author name:",
-		default: readSetting("author") || "Nazedev",
+		default: readSetting("author") || "YouGa",
 	});
 
 	separator();
@@ -58,7 +58,7 @@ export async function runSetupWizard() {
 
 	const botName = await input({
 		message: "Bot name:",
-		default: readSetting("botname") || "Hitori Bot",
+		default: readSetting("botname") || "jOUGA Bot",
 	});
 
 	separator();
