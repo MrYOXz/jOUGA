@@ -174,7 +174,7 @@ async function startBot() {
 
 function showHelp() {
 	showBanner();
-	console.log(`  ${theme.bold("Usage:")}  hitori ${theme.dim("[command]")}\n`);
+	console.log(`  ${theme.bold("Usage:")}  jOUGA ${theme.dim("[command]")}\n`);
 	console.log(`  ${theme.bold("Commands:")}`);
 	console.log(`    ${theme.accent("(none)".padEnd(16))} Open interactive menu`);
 	console.log(`    ${theme.accent("start".padEnd(16))} Start the bot directly`);
