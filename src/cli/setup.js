@@ -140,7 +140,8 @@ export async function runSetupWizard() {
 	const markerPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", ".hitori_setup_done");
 	fs.writeFileSync(markerPath, "1", "utf-8");
 
-	console.log(`  ${theme.dim("Tip: Use")} ${theme.accent("'hitori start'")} ${theme.dim("command to start the bot anytime.")}\n`);
+	console.log(`  ${theme.dim("Tip: Use")} ${theme.accent("'youga gazz
+														                '")} ${theme.dim("command to start the bot anytime.")}\n`);
 
 	return true;
 }
