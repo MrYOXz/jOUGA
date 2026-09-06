@@ -238,6 +238,6 @@ export function writeDatabaseConfig(configObj) {
 }
 
 export function isFirstRun() {
-	const marker = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", ".jOUGA_setup_done");
+	const marker = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", ".histori_setup_done");
 	return !fs.existsSync(marker);
 }
