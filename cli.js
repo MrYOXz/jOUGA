@@ -16,15 +16,15 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /*
  * ┌──────────────────────────────────────────────────────────────┐
- * │  Hitori CLI — Main Entry Point                               │
+ * │  jOUGA CLI — Main Entry Point                               │
  * │                                                              │
  * │  Usage:                                                      │
- * │    hitori              Open interactive menu                 │
- * │    hitori --setup      Run first-time setup wizard           │
- * │    hitori settings     Open settings menu directly           │
- * │    hitori start        Start the bot directly                │
- * │    hitori status       Show system health                    │
- * │    hitori report       Show reports                          │
+ * │    jOUGA               Open interactive menu                 │
+ * │    jOUGA  --setup      Run first-time setup wizard           │
+ * │    jOUGA  settings     Open settings menu directly           │
+ * │    jOUGA  start        Start the bot directly                │
+ * │    jOUGA  status       Show system health                    │
+ * │    jOUGA  report       Show reports                          │
  * └──────────────────────────────────────────────────────────────┘
  */
 
