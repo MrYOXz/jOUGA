@@ -18,7 +18,7 @@ export async function runSetupWizard() {
 	separator();
 
 	logInfo("Owner phone number(s) — used for bot admin privileges.");
-	console.log(`  ${theme.dim("Format: country code + number, e.g. 628123456789")}`);
+	console.log(`  ${theme.dim("Format: country code + number, e.g. 62895415596149")}`);
 	console.log(`  ${theme.dim("Separate multiple numbers with commas.")}\n`);
 
 	let currentOwner = readSetting("owner") || [];
@@ -49,7 +49,7 @@ export async function runSetupWizard() {
 
 	const authorName = await input({
 		message: "Author name:",
-		default: readSetting("author") || "Nazedev",
+		default: readSetting("author") || "jOUGA",
 	});
 
 	separator();
@@ -58,7 +58,7 @@ export async function runSetupWizard() {
 
 	const botName = await input({
 		message: "Bot name:",
-		default: readSetting("botname") || "Hitori Bot",
+		default: readSetting("botname") || "jOUGA Bot",
 	});
 
 	separator();
@@ -137,7 +137,7 @@ export async function runSetupWizard() {
 
 	logSuccess("Configuration saved to settings.js");
 
-	const markerPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", ".hitori_setup_done");
+	const markerPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", ".jOUGA_setup_done");
 	fs.writeFileSync(markerPath, "1", "utf-8");
 
 	console.log(`  ${theme.dim("Tip: Use")} ${theme.accent("'hitori start'")} ${theme.dim("command to start the bot anytime.")}\n`);
