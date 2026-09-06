@@ -21,7 +21,7 @@
   "type": "module",
   "main": "start.js",
   "bin": {
-    "hitori": "./cli.js"
+    "jOUGA": "./cli.js"
   },
   "directories": {
     "lib": "lib",
