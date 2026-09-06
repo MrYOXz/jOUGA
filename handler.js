@@ -5868,7 +5868,6 @@ Select Bot Settings:
 │${setv} ${prefix}stopclonebot
 │${setv} ${prefix}listjadibot
 │${setv} ${prefix}listclonebot
-│${setv} ${prefix}donasi
 │${setv} ${prefix}addsewa
 │${setv} ${prefix}delsewa
 │${setv} ${prefix}listsewa
