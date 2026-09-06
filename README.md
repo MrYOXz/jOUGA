@@ -1,2 +1,0 @@
-# jOUGA
-Cuma test aja
